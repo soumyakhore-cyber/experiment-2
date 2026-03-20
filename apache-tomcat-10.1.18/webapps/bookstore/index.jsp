@@ -4,3 +4,5 @@
 <a href="AddToCartServlet?book=DataStructures">Add DS Book</a><br>
 <br>
 <a href="ViewCartServlet">View Cart</a>
+<button onclick= "abc()">View Cart</button> 
+<script> function abc () { window.location.href =  'ViewCartServlet';}</script>
