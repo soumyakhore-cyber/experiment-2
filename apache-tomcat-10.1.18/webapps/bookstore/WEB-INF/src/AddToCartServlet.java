@@ -26,4 +26,5 @@ public class AddToCartServlet extends HttpServlet{ // class declare
         session.setAttribute("cart",cart);// it is used to store the updated cart back into the sessions
                                           // it helps to create the persistents / consistentsy across the pages       
         response.sendRedirect("index.jsp");// it redirects the user to index.jsp after adding the items
-    }                                      // prevent duplicate submission if page is refreshed
+    }    
+    }                                  // prevent duplicate submission if page is refreshed
